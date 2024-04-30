@@ -1,2 +1,17 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+:root{
+    --Yellow: hsl(47, 88%, 63%);
+    --White: hsl(0, 0%, 100%);
+    --Grey: hsl(0, 0%, 50%);
+    --Black: hsl(0, 0%, 7%);
+}
+
+.card{
+    background-color: var(--White);
+}
+
+.btn, .page-wraper{
+    background-color: var(--Yellow);
+}
