@@ -15,3 +15,36 @@
 .btn, .page-wraper{
     background-color: var(--Yellow);
 }
+.container{
+    width: 430px;
+    padding-bottom: 1px;
+}
+.container1{
+    width: 410px;
+    padding-bottom: 1px;
+    height: 585px;
+    margin-top: 8px;
+    margin-left: 9px;
+    position: absolute;
+    border-radius: 23px;
+    background-color: hsl(217, 54%, 11%);
+}
+.para{
+    color: var(--Grey);
+}
+
+@media (max-width: 480px){
+    .container{
+        width: 300px;
+    }
+    .container1{
+        width: 280px;
+        padding-bottom: 1px;
+        height: 551px;
+        margin-top: 8px;
+        margin-left: 9px;
+        position: absolute;
+        border-radius: 23px;
+        background-color: hsl(217, 54%, 11%);
+    }
+}
