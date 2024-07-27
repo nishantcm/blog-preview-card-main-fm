@@ -3,6 +3,7 @@
 
 :root{
     --Yellow: hsl(47, 88%, 63%);
+    --Light-Yellow: hsl(47, 66%, 65%);
     --White: hsl(0, 0%, 100%);
     --Grey: hsl(0, 0%, 50%);
     --Black: hsl(0, 0%, 7%);
@@ -12,8 +13,11 @@
     background-color: var(--White);
 }
 
-.btn, .page{
+.btn, .page-wraper{
     background-color: var(--Yellow);
+}
+.btn:hover{
+    background-color: var(--Light-Yellow);
 }
 .container{
     width: 430px;
@@ -40,11 +44,31 @@
     .container1{
         width: 280px;
         padding-bottom: 1px;
-        height: 510px;
+        height: 440px;
         margin-top: 8px;
         margin-left: 9px;
         position: absolute;
         border-radius: 23px;
         background-color: hsl(217, 54%, 11%);
+    }
+    .head-title{
+        font-size: 14px !important;
+    }
+    .para{
+        font-size: 12px !important;
+    }
+    .btn, .publish{
+        font-size: 12px !important;
+    }
+    .name{
+        font-size: 12px !important;
+        padding-left: 10px !important;
+    }
+    .image-logo{
+        width: 50px !important;
+        height: 50px !important;
+    }
+    .btn:hover{
+        background-color: var(--Light-Yellow);
     }
 }
